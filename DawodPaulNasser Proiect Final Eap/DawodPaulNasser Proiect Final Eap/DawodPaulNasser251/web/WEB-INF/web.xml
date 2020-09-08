@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+    <servlet>
+        <servlet-name>tstservlet</servlet-name>
+        <servlet-class>servlets.tstservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>tstservlet</servlet-name>
+        <url-pattern>/tst</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>servlets.loginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/log</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>creareContServlet</servlet-name>
+        <servlet-class>servlets.creareContServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>creareContServlet</servlet-name>
+        <url-pattern>/creare</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>vacanteServlet</servlet-name>
+        <servlet-class>servlets.vacanteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vacanteServlet</servlet-name>
+        <url-pattern>/vacanta</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>deleteUser</servlet-name>
+        <servlet-class>servlets.deleteUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteUser</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>rapoarteServlet</servlet-name>
+        <servlet-class>servlets.rapoarteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>rapoarteServlet</servlet-name>
+        <url-pattern>/rapoarte</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>managerVacante</servlet-name>
+        <servlet-class>servlets.managerVacante</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>managerVacante</servlet-name>
+        <url-pattern>/manVac</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>deleteVac</servlet-name>
+        <servlet-class>servlets.deleteVac</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteVac</servlet-name>
+        <url-pattern>/deleteVac</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>updateVacanta</servlet-name>
+        <servlet-class>servlets.updateVacanta</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateVacanta</servlet-name>
+        <url-pattern>/updateVacanta</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>tempVac</servlet-name>
+        <servlet-class>servlets.tempVac</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>tempVac</servlet-name>
+        <url-pattern>/tempVac</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>adaugareUserAtractie</servlet-name>
+        <servlet-class>servlets.adaugareUserAtractie</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adaugareUserAtractie</servlet-name>
+        <url-pattern>/adUsAtr</url-pattern>
+    </servlet-mapping>
+</web-app>
